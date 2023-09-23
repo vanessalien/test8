@@ -40,6 +40,10 @@ git status
 git log
 ```
 >показывает историю коммитов
+```
+git clone https://github.com/YourLoginOnGithub/GitName.git
+```
+>клонирует удаленный репозиторий в одноименную директорию
 ## Перенос репозитория на удаленный компьютер
 ```
 git remote add origin https://github.com/YourLoginOnGithub/GitName.git
