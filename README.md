@@ -1,7 +1,10 @@
 # Команды Git
 ## Создание репозитория на локальном компьютере
-`git config --global user.name ""`
-`git config --global user.email ""`
+```git config --global user.name ""
+```
+```
+git config --global user.email ""
+```
 >залогиниться
 ```
 pwd
@@ -20,7 +23,9 @@ git init
 ```
 >создает репозиторий из текущей папки
 ## Запись изменений в репозиторий
-`git add .`
+```
+git add .
+```
 >добавляет файлы из репозитория в индекс
 ```
 git commit -m ""commit1
@@ -35,14 +40,18 @@ git log
 ```
 >показывает историю коммитов
 ## Перенос репозитория на удаленный компьютер
-`git remote add origin https://github.com/YourLoginOnGithub/GitName.git`
+```
+git remote add origin https://github.com/YourLoginOnGithub/GitName.git
+```
 >подключает локальный репозиторий к удаленному
 ```
 git push -u origin main
 ```
 >переносит локальный репозиторий на удаленный компьютер
 ## Работа с ветками
-`git branch -M main`
+```
+git branch -M main
+```
 >создает основную ветку
 ```
 git checkout -b BranchName
