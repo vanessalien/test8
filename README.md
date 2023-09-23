@@ -7,35 +7,57 @@
 pwd
 ```
 >показывает текущую папку
-`cd "путь к папке"`
+```
+cd "путь к папке"
+```
 >указывает путь к папке
 ```
->git init
+git init
 ```
 >создает репозиторий из текущей папки
-`git add .`
+```
+git add .
+```
 >добавляет файлы из репозитория в индекс
-`git commit -m ""commit1`
+```
+git commit -m ""commit1
+```
 >сохраняет текущие изменения (добалвяет коммит)
-`ls -la`
+```
+ls -la
+```
 >показывает содержимое папки
-`git status`
+```
+git status
+```
 >показывает состояние репозитория (отслеживаемые, изменённые, новые файлы и пр.)
 ## Перенос репозитория на удаленный компьютер
 `git remote add origin https://github.com/YourLoginOnGithub/GitName.git`
 >подключает локальный репозиторий к удаленному
-`git push -u origin main`
+```
+git push -u origin main
+```
 >переносит локальный репозиторий на удаленный компьютер
 ## Работа с ветками
 `git branch -M main`
 >создает основную ветку
-`git checkout -b BranchName`
+```
+git checkout -b BranchName
+```
 >создает новую ветку и осуществляет переход к ней
-`git checkout BranchName`
+```
+git checkout BranchName
+```
 >осуществляет переход между ветками
-`git branch`
+```
+git branch
+```
 >показывает список веток и текущую ветку
-`git merge BranchName`
+```
+git merge BranchName
+```
 >сливает текущую ветку с указанной
-`git branch -d BranchName`
+```
+git branch -d BranchName
+```
 >удаляет указанную ветку
