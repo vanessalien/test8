@@ -1,6 +1,7 @@
 # Команды Git
 ## Создание репозитория на локальном компьютере
-```git config --global user.name ""
+```
+git config --global user.name ""
 ```
 ```
 git config --global user.email ""
